@@ -1,0 +1,94 @@
+.product_detail {
+    .container {
+        .detail_right {
+            .quantity {
+                .number-quantity {
+                    margin-bottom: 0;
+                    display: flex;
+                    align-items: center;
+                }
+
+                ;
+
+                .btn {
+                    i {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+;
+
+.products {
+    padding-top: 1rem;
+
+    .container {
+        .title {
+            h3 {
+                font-size: 2rem;
+            }
+
+            ;
+        }
+
+        ;
+
+        .products_show {
+            max-width: 1280px;
+
+            .content {
+                .item {
+                    // width: 27%;
+                    // margin: 3% 3%;
+
+                    .card-img-top {
+                        width: 85%;
+                        margin: 0 auto;
+                    }
+
+                    ;
+
+                    .card-title {
+                        width: 85%;
+                        margin: 0.5rem auto;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+
+                    ;
+
+                    .card_footer {
+                        .button-buy {
+                            border: none;
+                            border-radius: 0;
+                            padding: 0.8rem 1rem;
+                            background-color: #FFEB3B;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+
+                            &:hover {
+                                background-color: #FF9800;
+                                transition: 0.5s
+                            }
+                        }
+
+                        ;
+
+                        .price {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-weight: 600;
+                            background-color: #dfdfdf;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
