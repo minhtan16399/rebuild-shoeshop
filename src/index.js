@@ -8,6 +8,7 @@ import Register from './Pages/Register';
 import Home from './Pages/Home';
 import Carousel from './components/Carousel';
 import Modal from './util/Modal';
+import ShoeStores from './util/ShoeStores';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +18,7 @@ root.render(
                 <Route path='register' element={<Register />}></Route>
                 <Route path='' element={<Home/>}>
                     <Route index element={<Carousel/>}></Route>
-                    <Route path='detail' element={<Modal/>}></Route>
+                    <Route path='detail' element={<ShoeStores/>}></Route>
                 </Route>
             </Route>
             <Route path='user' element={<UserTemplate />}>

@@ -40,7 +40,7 @@ export default class Register extends Component {
                         </div>
                     </div>
                     <div className="py-3 text-center btn-submit">
-                        <button id="btnBack" type="submit" className="btn btn-success mb-3" onclick="inputUser()">Submit</button>
+                        <button id="btnBack" type="submit" className="btn btn-success mb-3">Submit</button>
                     </div>
                 </div>
             </div>
