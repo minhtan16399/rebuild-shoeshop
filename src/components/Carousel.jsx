@@ -7,7 +7,7 @@ export default class Carousel extends Component {
                 <div className="carousel-inner pb-5">
                     <div className="container">
                         <div className="carousel-item active">
-                            <img src="./img/image 4.png" className="d-block w-75 mx-auto mx-sm-0" alt="..." />
+                            <img src='./img/image 4.png' classname="d-block w-75 mx-auto mx-sm-0" alt="..." />
                             <div className="carousel-caption d-none d-sm-block w-25">
                                 <h5>Product name</h5>
                                 <p>Product description ....</p>
