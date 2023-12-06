@@ -19,7 +19,7 @@ export default class ProductList extends Component {
 
         return (
             <div className="products mt-3">
-                <Modal content={this.props.content} />
+                {/* <Modal content={this.props.content} /> */}
 
                 <div className="container">
                     <div className="title text-center">

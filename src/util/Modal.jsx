@@ -4,7 +4,7 @@ export default class Modal extends Component {
     render() {
         let { content } = this.props
         return (
-            <div className="product_detail my-5">
+            <div id='modal' className="product_detail my-5 d-none">
                 <div className="container">
                     <div className="row justify-content-around">
                         <div className="detail_left mb-4 col-md-6">
@@ -16,7 +16,7 @@ export default class Modal extends Component {
                             <h3 className="detail_right_title">{content?.name}</h3>
                             <p className="descript">{content?.description}</p>
                             <div className="my-4">
-                                <span className="total-price alert alert-light text-black">{content?.price}</span>
+                                <span className="total-price alert alert-light text-black">${content?.price}</span>
                             </div>
                             <div className="quantity d-inline d-flex my-4">
                                 <button id="btnMinus" className="btn text-black btn-outline-secondary" ><i className="fa-solid fa-minus" /></button>

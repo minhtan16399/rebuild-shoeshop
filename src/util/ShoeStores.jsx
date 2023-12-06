@@ -25,9 +25,13 @@ export default class ShoeStores extends Component {
     }
 
     render() {
+
         return (
             <div className="">
-                {/* <Modal content={this.state.itemDetail} /> */}
+                <div className="container">
+                    <Modal content={this.state.itemDetail} />
+
+                </div>
                 <ProductList ArrProducts={DataProduct} setStateItem={this.setStateItem} content={this.state.itemDetail} />
             </div>
         )
