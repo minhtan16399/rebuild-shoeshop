@@ -18,7 +18,7 @@ root.render(
                 <Route path='register' element={<Register />}></Route>
                 <Route path='' element={<Home/>}>
                     <Route index element={<Carousel/>}></Route>
-                    <Route path='detail' element={<ShoeStores/>}></Route>
+                    <Route path='detail' element={<Modal/>}></Route>
                 </Route>
             </Route>
             <Route path='user' element={<UserTemplate />}>
