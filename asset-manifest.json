@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rebuild-shoeshop/static/css/main.6ec26cf3.css",
+    "main.js": "/rebuild-shoeshop/static/js/main.98414a6b.js",
+    "index.html": "/rebuild-shoeshop/index.html",
+    "main.6ec26cf3.css.map": "/rebuild-shoeshop/static/css/main.6ec26cf3.css.map",
+    "main.98414a6b.js.map": "/rebuild-shoeshop/static/js/main.98414a6b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ec26cf3.css",
+    "static/js/main.98414a6b.js"
+  ]
+}
